@@ -4,32 +4,32 @@
 
 <manifest>
 	<remote name="openembedded"
-		fetch="git://github.com/openembedded" />
+		fetch="https://github.com/openembedded" />
 
 	<remote name="Xilinx"
-		fetch="git://github.com/Xilinx" />
+		fetch="https://github.com/Xilinx" />
 
 	<remote name="balister"
-		fetch="git://github.com/balister" />
+		fetch="https://github.com/balister" />
 
 	<remote name="sbabic"
-		fetch="git://github.com/sbabic" />
+		fetch="https://github.com/sbabic" />
 
 	<remote name="yocto"
-		fetch="git://git.yoctoproject.org/" />
+		fetch="https://git.yoctoproject.org/" />
 
 	<remote name="qt5"
-		fetch="git://github.com/meta-qt5" />
+		fetch="https://github.com/meta-qt5" />
 
 	<remote name="gnss-sdr"
-		fetch="git://github.com/carlesfernandez" />
+		fetch="https://github.com/carlesfernandez" />
 
 	<default remote="openembedded" revision="master" />
 
 	<project name="bitbake" path="bitbake" revision="1.48" />
 	<project name="openembedded-core" path="oe-core" revision="d47b7cdc3508343349f3bb3eacb2dc3227dd94d2" />
 	<project name="meta-openembedded" path="meta-oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f" />
-	<project name="meta-qt5" remote="qt5" path="meta-qt5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" />
+	<project name="meta-qt5" remote="qt5" path="meta-qt5" revision="4837db1d965c51e4a2c5971e6a126c896e5b401a" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="b4e0dd91e3b035d744521017a63a18f83bbaf791" />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="ad6b704acd4cfb210f83aaf48336e37b550da370" />
 	<project name="meta-raspberrypi" remote="yocto" path="meta-raspberrypi" revision="e5e976da0bed8eb9d3c4dc61e8ee3a6a864ff56b" />
